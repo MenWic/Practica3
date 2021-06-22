@@ -7,6 +7,7 @@ public class PiedraPapelTijera {
     //Variables Globales de clase
     Ficha ficha;
     Scanner scanner=new Scanner(System.in);
+    
     public PiedraPapelTijera(Ficha ficha){
         this.ficha=ficha;
     }

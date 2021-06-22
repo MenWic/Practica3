@@ -221,7 +221,7 @@ public class Ficha {
                 }
             }
         }
-        if(contador==64){ //16
+        if(contador==64){ //Al recorrer los64 espacio (por ser arreglo de 8x8) y no encontrar una ficha oponente es ganador
             jugador1.setChampion(1);
             System.out.println("\n* * * Ganador: "+jugador1.getInformacion()+" * * *\n");
             return true;
@@ -242,7 +242,7 @@ public class Ficha {
                 }
             }
         } 
-        if(contador==64){ //16
+        if(contador==64){ //Al recorrer los64 espacio (por ser arreglo de 8x8) y no encontrar una ficha oponente es ganador
             jugador2.setChampion(1);
             System.out.println("Ganador: "+jugador2.getInformacion());
             return true;
